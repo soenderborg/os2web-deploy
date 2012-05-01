@@ -9,12 +9,22 @@ projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
 projects[os2web][download][url] = "git@github.com:syddjurs/os2web.git"
 projects[os2web][download][revision] = "dev"
+;OS2Web WebPol Modules
+projects[os2web][type] = "module"
+projects[os2web][download][type] = "git"
+projects[os2web][download][url] = "git@github.com:syddjurs/os2web.git"
+projects[os2web][download][revision] = "polweb"
+
 
 ; OS2Web Themes
-
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
 projects[cmstheme][download][url] = "git@github.com:bellcom/cmstheme.git"
+projects[cmstheme][download][revision] = "dev"
+; OS2Web WebPol Theme
+projects[cmstheme][type] = "theme"
+projects[cmstheme][download][type] = "git"
+projects[cmstheme][download][url] = "git@github.com:bellcom/os2web-theme-webpol.git"
 projects[cmstheme][download][revision] = "dev"
 
 ;projects[syddjurs][type] = "theme"

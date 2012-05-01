@@ -69,6 +69,16 @@ dependencies[] = ldap_profile
 dependencies[] = ldap_servers
 dependencies[] = ldap_sso
 
+; WebPol contrib modules
+dependencies[] = front
+dependencies[] = computed_field
+dependencies[] = entityreference
+dependencies[] = entity_api
+dependencies[] = menu_attributes
+dependencies[] = prepopulate
+dependencies[] = print
+dependencies[] = jquery_update
+dependencies[] = poshy_tip
 
 ;Development - Disable on prod.
 ;dependencies[] = features_tools
@@ -77,6 +87,10 @@ dependencies[] = ldap_sso
 
 ;OS2web modules
 dependencies[] = os2web_pws
+
+;OS2Web webpol modules
+dependencies[] = annotator
+dependencies[] = print_meetings
 
 ;Features
 dependencies[] = ofir_job_index_integration
@@ -95,6 +109,14 @@ dependencies[] = os2web_sovs
 ;dependencies[] = ballerup_taxonomies
 ;dependencies[] = ballerup_views
 ;dependencies[] = borger_dk_integration
+
+;WebPol features
+dependencies[] = os2web_blocks_positioning
+dependencies[] = os2web_content_types_and_user_fields
+dependencies[] = os2web_front_page_feature
+dependencies[] = os2web_meetings_calendar_view
+dependencies[] = os2web_meeting_views
+dependencies[] = os2web_sidepane_menu
 
 files[] = os2web.profile
 files[] = os2web.install
