@@ -70,10 +70,10 @@ dependencies[] = ldap_servers
 dependencies[] = ldap_sso
 
 ; WebPol contrib modules
-dependencies[] = front
+dependencies[] = front_page
 dependencies[] = computed_field
 dependencies[] = entityreference
-dependencies[] = entity_api
+dependencies[] = entity
 dependencies[] = menu_attributes
 dependencies[] = prepopulate
 dependencies[] = print
