@@ -26,6 +26,8 @@ projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
 projects[cmstheme][download][url] = "git@github.com:bellcom/os2web-theme-webpol.git"
 projects[cmstheme][download][revision] = "dev"
+; OS2Web theme base
+projects[omega][subdir] = "contrib"
 
 ;projects[syddjurs][type] = "theme"
 ;projects[syddjurs][download][type] = "git"
